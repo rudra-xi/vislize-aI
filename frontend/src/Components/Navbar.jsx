@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
+
+import { AppContext } from "../Context/AppContext";
 
 import { assets } from "../Assets/assets";
 
 function Navbar() {
-	const [user, setUser] = useState(false);
-
 	const navigate = useNavigate();
+
+	const {user} = useContext(AppContext)
 
 	return (
 		<nav className="flex items-center justify-between w-full py-5">
@@ -22,7 +24,7 @@ function Navbar() {
 				{user ? (
 					<div className="flex items-center gap-2 sm:gap-3">
 						<button
-							className="flex items-center gap-2 px-4 sm:px-6 py-1.5 sm:py-3 rounded-full bg-quaternary hover:scale-105 transition-all duration-500"
+							className="flex items-center gap-2 px-4 sm:px-5 py-1 sm:py-3 rounded-full bg-quaternary hover:scale-105 transition-all duration-500"
 							onClick={() => navigate("/buy-credit")}
 						>
 							<img
@@ -30,7 +32,7 @@ function Navbar() {
 								alt="credit star"
 								className="w-5"
 							/>
-							<p className="text-xs sm:text-sm text-primary ml-1">
+							<p className="text-xs sm:text-sm text-primary ml-2">
 								Credit Left: 10
 							</p>
 						</button>
@@ -41,7 +43,7 @@ function Navbar() {
 							<img
 								src={assets.profile_icon}
 								alt="user img"
-								className="w-10 drop-shadow-glow"
+								className="w-11 drop-shadow-glow"
 							/>
 							<div className="absolute hidden group-hover:block top-0 right-0 z-10 rounded pt-12">
 								<ul className="list-none m-0 p-2 rounded-lg text-sm bg-quaternary text-secondary">
