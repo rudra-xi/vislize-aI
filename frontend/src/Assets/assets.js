@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import logo_icon from "./logo_icon.svg";
-import facebook_icon from "./facebook_icon.svg";
-import instagram_icon from "./instagram_icon.svg";
-import twitter_icon from "./twitter_icon.svg";
+import facebook_icon from "./facebook-icon.svg";
+import instagram_icon from "./instagram-icon.svg";
+import twitter_icon from "./twitter-icon.svg";
 import star_icon from "./star_icon.svg";
 import rating_star from "./rating_star.svg";
 import sample_img_1 from "./sample_img_1.png";
@@ -16,8 +16,8 @@ import email_icon from "./email_icon.svg";
 import lock_icon from "./lock_icon.svg";
 import cross_icon from "./cross_icon.svg";
 import star_group from "./star_group.png";
-import credit_star from "./credit_star.svg";
-import profile_icon from "./profile_icon.png";
+import credit_icon from "./credit-icon.svg";
+import profile_icon from "./profile-icon.svg";
 
 export const assets = {
 	logo,
@@ -33,7 +33,7 @@ export const assets = {
 	lock_icon,
 	cross_icon,
 	star_group,
-	credit_star,
+	credit_icon,
 	profile_icon,
 };
 
