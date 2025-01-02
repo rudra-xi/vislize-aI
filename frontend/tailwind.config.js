@@ -11,7 +11,8 @@ export default {
 				white: "#fbfbef",
 			},
 			dropShadow:{
-				glow: "3px 3px 5px rgba(219, 252, 209, 0.2)"
+				glow: "3px 3px 5px rgba(219, 252, 209, 0.2)",
+				dark: "0px 12px 14px rgba(0,0,0,0.3)"
 			}
 		},
 	},
