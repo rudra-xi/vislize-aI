@@ -10,6 +10,7 @@ import monster_2 from "./monster-2.jpeg";
 import monster_3 from "./monster-3.jpeg";
 import monster_4 from "./monster-4.jpeg";
 import monster_5 from "./monster-5.jpeg";
+import monster_6 from "./monster-6.jpeg";
 import profile_img_1 from "./profile_img_1.png";
 import profile_img_2 from "./profile_img_2.png";
 import step_icon_1 from "./step_icon_1.svg";
@@ -35,6 +36,7 @@ export const assets = {
 	monster_3,
 	monster_4,
 	monster_5,
+	monster_6,
 	email_icon,
 	lock_icon,
 	cross_icon,
@@ -48,51 +50,61 @@ export const monstersData = [
 	{ image: monster_2, id: 2 },
 	{ image: monster_3, id: 3 },
 	{ image: monster_4, id: 4 },
-     { image: monster_5, id: 5 },
+	{ image: monster_5, id: 5 },
 ];
 
 export const stepsData = [
 	{
-		title: "Describe Your Vision",
+		title: "Imagine & Describe",
 		description:
-			"Type a phrase, sentence, or paragraph that describes the image you want to create.",
+			"Craft a phrase, sentence, or paragraph that captures the image you envision.",
 		icon: step_icon_1,
 	},
 	{
-		title: "Watch the Magic",
+		title: "Watch the Transformation",
 		description:
-			"Our AI-powered engine will transform your text into a high-quality, unique image in seconds.",
+			"Witness our AI-powered engine turn your text into a stunning, unique image in mere seconds.",
 		icon: step_icon_2,
 	},
 	{
-		title: "Download & Share",
+		title: "Download & Share Instantly",
 		description:
-			"Instantly download your creation or share it with the world directly from our platform.",
+			"Get your creation in an instant and share it with the world effortlessly from our platform.",
 		icon: step_icon_3,
+	},
+];
+
+export const descriptionData = [
+	{
+		heading: "Discover AI-Powered Text to Image Generator.",
+		shortDes:
+			"Bring your ideas to life effortlessly with our free AI image generator. Transform your text into stunning visuals in just a few clicks. Describe it, and watch it come to life instantly.",
+		extendedDes:
+			"Type a prompt, and our advanced AI creates high-quality images in seconds. From product visuals to character designs, even the most imaginative concepts are brought to life. The possibilities are endless!",
 	},
 ];
 
 export const testimonialsData = [
 	{
-		image: profile_img_1,
+		image: "https://randomuser.me/api/portraits/men/43.jpg",
 		name: "Donald Jackman",
 		role: "Graphic Designer",
 		stars: 5,
-		text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+		text: `Vislize-Ai has been a lifesaver for my design projects. As a graphic designer, crafting a phrase, sentence, or paragraph that captures the image you envision is crucial. Vislize-Ai's AI-powered engine transforms my text into stunning, unique images in mere seconds. I can get my creations instantly and share them effortlessly. This tool has made my work so much easier and more enjoyable!`,
 	},
 	{
-		image: profile_img_2,
+		image: "https://randomuser.me/api/portraits/men/95.jpg",
 		name: "Richard Nelson",
 		role: "Content Creator",
 		stars: 5,
-		text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+		text: `Vislize-Ai has truly been a game-changer for my content creation process. Bringing my ideas to life has never been this effortless. I just type a few words, and within seconds, my text is transformed into stunning visuals. This tool is incredibly user-friendly and has significantly improved the quality of my work!`,
 	},
 	{
-		image: profile_img_1,
-		name: "Donald Jackman",
-		role: " Graphic Designer",
+		image: "https://randomuser.me/api/portraits/women/55.jpg",
+		name: "Emily Watson",
+		role: "Digital Marketer",
 		stars: 5,
-		text: `I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`,
+		text: `As a digital marketer, I need high-quality images quickly and efficiently. With Vislize-Ai, I just type a prompt, and their advanced AI creates beautiful images in seconds. From product visuals to character designs, even the most imaginative concepts come to life effortlessly. This tool has been indispensable for my social media campaigns!`,
 	},
 ];
 
