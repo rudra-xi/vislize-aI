@@ -1,9 +1,12 @@
+/* Goggle Font: Quicksand */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
+/* TailwindCSS Utility */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Colors */
 :root {
 	--primary: #001b32;
 	--secondary: #092b50;
@@ -12,12 +15,12 @@
 	--white: #fbfbef;
 }
 
+/* Basic Style */
 * {
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
 }
-
 html,
 body {
 	font-family: "Quicksand", serif;
@@ -26,7 +29,7 @@ body {
 	font-weight: 600;
 }
 
-
+/* Header Section Button */
 .button-container {
 	height: 170px;
 	width: 100%;
@@ -34,7 +37,6 @@ body {
 	align-items: center;
 	justify-content: center;
 }
-
 .button {
 	position: relative;
 	z-index: 0;
@@ -263,16 +265,4 @@ body {
 	100% {
 		width: 124px;
 	}
-}
-
-.container {
-	width: 100%;
-	height: 300px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.button:not(:last-child) {
-	margin-bottom: 64px;
 }
