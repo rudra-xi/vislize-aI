@@ -10,10 +10,13 @@ export default {
 				quaternary: "#dbfcd1",
 				white: "#fbfbef",
 			},
-			dropShadow:{
+			dropShadow: {
 				glow: "3px 3px 5px rgba(219, 252, 209, 0.2)",
-				dark: "0px 12px 14px rgba(0,0,0,0.3)"
-			}
+				dark: "0px 12px 14px rgba(0,0,0,0.3)",
+			},
+			boxShadow: {
+				scan: "rgba(219, 252, 209, 0.2) 1.95px 1.95px 2.6px",
+			},
 		},
 	},
 	plugins: [],
