@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar.jsx";
 import Home from "./Pages/Home";
 import Result from "./Pages/Result";
 import BuyCredit from "./Pages/BuyCredit";
+import Footer from "./Components/Footer.jsx";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Route exact path="/result" element={<Result />} />
 				<Route exact path="/buy-credit" element={<BuyCredit />} />
 			</Routes>
+			<Footer />
 		</section>
 	);
 }
