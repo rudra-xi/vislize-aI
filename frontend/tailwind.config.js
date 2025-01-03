@@ -16,6 +16,7 @@ export default {
 			},
 			boxShadow: {
 				scan: "rgba(219, 252, 209, 0.2) 1.95px 1.95px 2.6px",
+				darkScan: "rgba(0, 0, 0, 0.4) 2.95px 2.95px 3.6px",
 			},
 		},
 	},
