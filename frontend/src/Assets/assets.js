@@ -4,7 +4,7 @@ import facebook_icon from "./facebook-icon.svg";
 import instagram_icon from "./instagram-icon.svg";
 import twitter_icon from "./twitter-icon.svg";
 import star_icon from "./star-icon.svg";
-import rating_star from "./rating_star.svg";
+import rating_star from "./rating-star.svg";
 import monster_1 from "./monster-1.jpeg";
 import monster_2 from "./monster-2.jpeg";
 import monster_3 from "./monster-3.jpeg";
@@ -90,21 +90,21 @@ export const testimonialsData = [
 		name: "Donald Jackman",
 		role: "Graphic Designer",
 		stars: 5,
-		text: `Vislize-Ai has been a lifesaver for my design projects. As a graphic designer, crafting a phrase, sentence, or paragraph that captures the image you envision is crucial. Vislize-Ai's AI-powered engine transforms my text into stunning, unique images in mere seconds. I can get my creations instantly and share them effortlessly. This tool has made my work so much easier and more enjoyable!`,
+		text: `Vislize-Ai transforms my text into stunning images in seconds. It's a lifesaver for my design projects! Highly recommend it to all designers.`,
 	},
 	{
 		image: "https://randomuser.me/api/portraits/men/95.jpg",
 		name: "Richard Nelson",
 		role: "Content Creator",
-		stars: 5,
-		text: `Vislize-Ai has truly been a game-changer for my content creation process. Bringing my ideas to life has never been this effortless. I just type a few words, and within seconds, my text is transformed into stunning visuals. This tool is incredibly user-friendly and has significantly improved the quality of my work!`,
+		stars: 4,
+		text: `Vislize-Ai is a game-changer for content creation. It's user-friendly and improves my work quality. A must-have tool for content creators.`,
 	},
 	{
 		image: "https://randomuser.me/api/portraits/women/55.jpg",
 		name: "Emily Watson",
 		role: "Digital Marketer",
 		stars: 5,
-		text: `As a digital marketer, I need high-quality images quickly and efficiently. With Vislize-Ai, I just type a prompt, and their advanced AI creates beautiful images in seconds. From product visuals to character designs, even the most imaginative concepts come to life effortlessly. This tool has been indispensable for my social media campaigns!`,
+		text: `Vislize-Ai creates high-quality images quickly. It's essential for my social media campaigns! Can't imagine my workflow without it.`,
 	},
 ];
 
