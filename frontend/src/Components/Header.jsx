@@ -1,5 +1,6 @@
 import React from "react";
 import { assets, monstersData } from "../Assets/assets";
+import Button from "../Reuseable/Button";
 
 // Header component for the application
 function Header() {
@@ -28,22 +29,7 @@ function Header() {
 				and watch the magic happen!
 			</p>
 			{/* Button to trigger image rendering */}
-			<div className="button-container">
-				<a href="#" className="button">
-					<div className="button__line"></div>
-					<div className="button__line"></div>
-					<span className="button__text">
-						Render Images{" "}
-						<img
-							src={assets.star_icon}
-							alt=""
-							className="px-2 h-5"
-						/>
-					</span>
-					<div className="button__draw1"></div>
-					<div className="button__draw2"></div>
-				</a>
-			</div>
+			<Button />
 			{/* Display a collection of images */}
 			<div className="flex flex-wrap justify-center mt-3 gap-5">
 				{monstersData.map((item, idx) => (
