@@ -5,10 +5,10 @@ function Description() {
 	return (
 		<section className="flex flex-col items-center justify-center my-24 p-6 md:px-28">
 			<h2 className="text-3xl sm:text-4xl font-semibold mb-2">
-				Create AI Images.
+				Generate AI Art.
 			</h2>
-			<p className="text-tertiary mb-8">
-				"Turn Your Imagination into Visuals."
+			<p className="text-lg text-tertiary mb-8">
+				"Visualize Imagination."
 			</p>
 
 			<div className="flex flex-col gap-5 md:gap-14 md:flex-row items-center">
